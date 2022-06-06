@@ -31,50 +31,55 @@
     grid-row-start: 1;
     grid-row-end: 11;
     grid-column-start: 1;
-    grid-column-end: 11;
-    padding-bottom: 5%;
+    grid-column-end: 5;
 }
 
 .logo img{
     width: 100%;
     height: 100%;
-    object-fit:contain;
 }
 
 .email {
-    grid-row-start: 10;
-    grid-row-end: 10;
-    grid-column-start: 2;
-    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 5;
+    grid-column-end: 11;
     text-align: left;
     font-family: Helvetica, sans-serif;
     color: rgb(23, 85, 100);
-    margin-left: -4vw;
+    display: flex;
 }
 
 .email a {
     color:inherit;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 3.5vw;
+}
+
+.email img {
+    height: 4.4vw;
+    padding-right: 1vw;
 }
 
 .phone {
-    grid-row-start: 10;
-    grid-row-end: 10;
-    grid-column-start: 7;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 5;
     grid-column-end: 10;
-    text-align: right;
+    text-align: left;
     font-family: Helvetica, sans-serif;
     color: rgb(23, 85, 100);
-    margin-right: -4vw;
+    display: flex;
 }
 
 .phone a {
     color:inherit;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 3.5vw;
 }
 
-.iosCard {
-    margin-top: 2vh;
+.phone img {
+    height: 4.7vw;
+    padding-right: 1vw;
+    padding-right: 1vw;
 }
